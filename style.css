@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(
+    45deg,
+    #bf768e,
+    #e27771,
+    #e8a087,
+    #64576a,
+    #a17067
+  );
+  margin: 0;
+  padding: 0;
+  color: #ffff;
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 80px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 13rem;
+}
+h2 {
+  margin-top: 5rem;
+}
+p {
+  padding: 0;
+  margin: 4px;
+}
+
+a {
+  color: #ffff;
+  text-decoration: none;
+  border: 2px solid #ffff;
+  padding: 10px 50px;
+  border-radius: 30px;
+}
